@@ -1,2 +1,0 @@
-document.addEventListener('click',function(e){var b=e.target.closest('button');
-if(b&&/menu/i.test(b.getAttribute('aria-label')||'')){var m=document.getElementById('sm-mobile');m.style.display=m.style.display==='flex'?'none':'flex';}});
